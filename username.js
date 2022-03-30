@@ -1,0 +1,50 @@
+const _ = require("lodash");
+
+const names = [
+  "AlDelvecchio",
+  "Arnold",
+  "Ashley",
+  "BuffaloBob",
+  "Chachi",
+  "Chuck",
+  "Clarabelle",
+  "Doris",
+  "Fonzie",
+  "Frank",
+  "Gloria",
+  "Heather",
+  "Howard",
+  "Jenny",
+  "Joanie",
+  "K.C.",
+  "Kirk",
+  "Leather",
+  "LieutenantColonelBinicky",
+  "LieutenantNurseQuinlan",
+  "LoriBeth",
+  "Louisa",
+  "Marion",
+  "Marsha",
+  "Mary Lou",
+  "Maureen",
+  "Mork",
+  "MotherKelp",
+  "Nancy",
+  "Pinky",
+  "PizzaDeliverygirl",
+  "Potsie",
+  "Ralph",
+  "Richie",
+  "Roger",
+  "Sergeant",
+  "Spike",
+  "Susie",
+  "Vito",
+  "Wendy",
+];
+
+module.exports = {
+  getRandom: () => {
+    return _.sample(names) + _.random(1, 4242);
+  },
+};
