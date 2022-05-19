@@ -1,3 +1,3 @@
-# testing-capstone-resources-iapshowroom
+# testing-bbb-resources
 
-This is a quick test for resources in BBB for our capstone project
+This is a quick test for resources in BBB
